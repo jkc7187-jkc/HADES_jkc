@@ -1,0 +1,17 @@
+HADES STOCK PRO ANDROID APK PREMIUM V1 - 최종 재구성 보고
+
+상태: Android Studio 빌드용 정상 프로젝트 패키지
+진행률: STEP1 정상판 재생성 완료
+
+확인 사항:
+1. Android Studio 표준 프로젝트 구조 확인
+2. WebView MainActivity 확인
+3. AndroidManifest.xml 보강
+4. Gradle 설정 보강
+5. gradle.properties 추가
+6. 내장 index.html 앱 화면 유지
+
+주의:
+이 패키지는 Android Studio에서 APK를 생성하는 프로젝트입니다.
+현재 압축파일 내부에 app-debug.apk 파일이 직접 포함되어 있지는 않습니다.
+APK 생성 위치는 빌드 후 app/build/outputs/apk/debug/app-debug.apk 입니다.
